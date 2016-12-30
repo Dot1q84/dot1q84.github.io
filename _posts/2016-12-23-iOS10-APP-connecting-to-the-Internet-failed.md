@@ -13,7 +13,7 @@ tags:
 
 有些机智的app会做一些友情提示，比如说：
 
-![机智的APP提示](https://dot1q84.github.io/img/post_imgs/2016-12-23-iOS10-APP-connecting-to-the-Internet-failed.png)
+![机智的APP提示](/img/post_imgs/2016-12-23-iOS10-APP-connecting-to-the-Internet-failed.png)
  
 ### 但是然而并没有什么卵用好吗？！Σ( ° △ °)︴
 ### 因为我的系统设置里根本就没有那个软件的条目啊啊啊！！！
