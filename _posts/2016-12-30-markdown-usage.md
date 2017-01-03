@@ -15,9 +15,14 @@ tags:
 Markdown 会把每行前面空四格的文本转换为代码块。如果是GFM的话，也支持这种语法，同时，还支持围栏式代码块即代码块包裹在 ``` 之间。 via [abirdcfly](https://segmentfault.com/u/abirdcfly)
 
 ### 2、Markdown中插入图片有什么技巧？
-说用图床的，要么是图床的托，要么就是根本就没有研究明白。在repository的根目录下建立文件夹，然后将图片放在其中，在写链接的时候直接使用自己的GitHub Pages根路径加图片地址访问即可。例如：
+说用图床的，要么是图床的托，要么就是根本就没有研究明白。在repository的根目录下建立文件夹，然后将图片放在其中，在写链接的时候直接使用自己的GitHub Pages根路径加图片地址访问即可。比如说你的github.io项目里有个叫img的文件夹里有张图叫logo.png：
 
-	![xxxxxx](https://xxxxxx.github.io/项目名称/images/图片名称.png)
+	![这里是图片备注](https://xxxxxx.github.io/img/logo.png)
+
+或者直接上相对路径：
+
+	![这里是图片备注](/img/logo.png)
+
 
 via [Victory Cai(知乎)](https://www.zhihu.com/question/21065229/answer/137816523)
 
