@@ -21,13 +21,15 @@ Markdown 会把每行前面空四格的文本转换为代码块。如果是GFM�
 
 	![这里是图片备注](https://xxxxxx.github.io/img/logo.png)
 
-或者直接上相对路径：
-
-	![这里是图片备注](/img/logo.png)
-
-
 via [Victory Cai(知乎)](https://www.zhihu.com/question/21065229/answer/137816523)
 
+PS:
+
+继续上面的例子，如果用jekyll构造的blog，可以直接上相对路径：
+
+	![这里是图片备注](../../../../img/logo.png)
+
+每个`..`代表往上回退一级，至于为什么回退这么多层，跟jekyll生成的目录结构有关系，在本地启动jekyll服务后看下根目录里`_site`目录里的文件结构，从某一篇文章的目录访问到图片所在的目录应该怎么切换。
 ### 3、github emoji速查表
 
 [https://github.com/guodongxiaren/README/blob/master/emoji.md](https://github.com/guodongxiaren/README/blob/master/emoji.md)
